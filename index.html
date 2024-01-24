@@ -40,20 +40,45 @@
       <div class="pagination">
         <button id="loadMoreButton" type="button">Load More</button>
       </div>
-      <div class="overlay hidden">
-        <div class="modal">
-
+      <div class="overlay hidden"></div>
+      <div class="modal hidden">
+        <div class="modal-body">
           <div class="modal-head">
             <div class="pokemon-info">
               <h2 class="pokemon-name"></h2>
-              <div class="types-container">
-              </div>
+              <div class="types-container"></div>
             </div>
-            <div class="pokemon-number">#1</div>
+            <div class="pokemon-number"></div>
           </div>
 
           <div class="modal-image"></div>
+        </div>
 
+        <div class="modal-details">
+          <div class="tabs-container">
+            <div class="tab" id="about">About</div>
+            <div class="tab base-stats">Base Stats</div>
+            <div class="tab moves">Moves</div>
+          </div>
+
+          <div class="info-container">
+            <div class="info">
+              <p class="disabled">Height</p>
+              <p class="height"></p>
+            </div>
+            <div class="info">
+              <p class="disabled">Weight</p>
+              <p class="weight"></p>
+            </div>
+            <div class="info">
+              <p class="disabled">Type</p>
+              <p class="info-type"></p>
+            </div>
+            <div class="info">
+              <p class="disabled">Abilities</p>
+              <p class="abilities"></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
